@@ -77,12 +77,16 @@ Back-Translation: 한국어→영어→한국어로 어순 다양화.
 “야진짜너무열받는다” / “ㄹㅇ어이없음ㅋㅋ”.
 
 4.  모델 설계 및 비교
+
     모델 개요 장점 단점
+
     ① 프리트레인 모델 (KoBERT, KLUE-RoBERTa 등) 공개된 한국어 BERT 계열 빠른 수렴, 강한 언어 이해력 커스텀 문체 대응 약함
+
     ② 직접 구현한 BERT (Scratch) Embedding → MultiHead Attention → FFN 구조 이해 및 제어 용이 학습 비용 큼
+
     ③ LRP with LSTM LRP(Locally Recurrent Projection) + LSTM 결합 구조 문맥 기반 reasoning 가능 fine-tuning 난이도 높음
 
----
+## **사전학습 모델 임베딩과 그렇지않은 모델의 임베딩 차이**
 
 ### 과제 개요
 
