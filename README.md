@@ -86,7 +86,7 @@ Back-Translation: 한국어→영어→한국어로 어순 다양화.
 
     ③ LRP with LSTM LRP(Locally Recurrent Projection) + LSTM 결합 구조 문맥 기반 reasoning 가능 fine-tuning 난이도 높음
 
-## **사전학습 모델 임베딩과 그렇지않은 모델의 임베딩 차이**
+## **사전학습 모델 임베딩과 그렇지않은 모델의 임베딩 차이** project05 참조
 
 ### 과제 개요
 
